@@ -1,0 +1,181 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.tab {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    gap: 20px;
+    color: blue;
+    
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+.content {
+   
+    color:black;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.book-list {
+    list-style-type:circle;
+    padding:0px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.book-list li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+   
+}
+.logo
+{
+    margin-left: 500px;
+}
+.menu-item {
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.background
+{
+    background-image: url(https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MzZ8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    
+}
+.h
+{
+    
+   visibility: visible;
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  font-size: 26px;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.side
+{
+   
+    margin-left: 30px;
+    width: 400px;
+    background-color:orangered;
+    text-align: center;
+    
+    font-size: 24px;
+ opacity: 0.8;
+ border-radius: 60px;
+ box-shadow: 8px 7px 4px;
+ margin-right: 10px;
+ padding: 15px;
+}
+.c1
+{
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+   
+
+    gap: 80px;
+
+    
+}
+.con
+{
+    color: black;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+.no
+{
+    font-size: 16px;
+    color: white;   
+    
+}
+.free
+{
+    border-radius:120px;
+    cursor: pointer;
+    
+}
+.try
+{
+    margin-bottom: 30px;
+}
+.free:hover {
+    box-shadow: 0 0 15px 12px rgba(174, 186, 0, 0.5);
+    transform: scaleX(-1);
+}
+
+.q:hover
+{   
+    display: block;
+    visibility: visible;
+    color: white ;
+}
+.q
+{
+ cursor: pointer;
+ visibility:hidden;
+}
+.s
+{
+    display:block;
+    font-size: 20px;
+}
+.e
+{
+    color: white;
+}
